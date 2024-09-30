@@ -1,5 +1,8 @@
 version: 1.0
 app:
+  maven:
+    repository: https://central.sonatype.com/artifact/net.wasdev.wlp.sample/ferret
+    artifact: sample.war
   # build id to deploy
   # version: 1.0-SNAPSHOT-20230716015630
   # number of instances
